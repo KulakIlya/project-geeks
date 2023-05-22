@@ -1,0 +1,94 @@
+:root {
+    --main-font-family: 'Poppins', sans-serif;
+    --main-color: #000000;
+    --secondary-color: #8f95a5;
+}
+
+body {
+    font-family: var(--main-font-family);
+
+    color: var(--main-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0 9% !important;
+}
+
+.navbar-btn,
+.hero-description {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+/* Header */
+
+.logo {
+    font-size: 2.25rem;
+    line-height: 1.5;
+}
+.accent {
+    color: var(--secondary-color);
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5;
+
+    color: var(--main-color);
+}
+
+.navbar-btn {
+    padding: 1.6% 5%;
+}
+
+/* Hero section */
+
+#hero {
+    padding: 8% 0;
+}
+
+#hero .wrapper {
+    width: 45%;
+
+    position: relative;
+}
+
+.main-heading {
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 1.25;
+}
+
+.hero-description {
+    color: var(--secondary-color);
+}
+
+.hero-btn {
+    min-width: 135px;
+
+    font-size: 2.25rem;
+    line-height: 1.5;
+
+    padding: 6% 22%;
+
+    border-radius: 15px;
+}
+
+.bulb-icon {
+    width: 16%;
+
+    top: 5%;
+    left: 0;
+
+    position: absolute;
+}
+/* Media queries */

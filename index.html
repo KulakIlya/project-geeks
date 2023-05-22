@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header id="main-header" class="bg-white py-2">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="https://codescandy.com/geeks/assets/images/brand/logo/logo.svg"
+              alt="Geek logo"
+            />
+          </a>
+          <ul class="navbar-nav d-lg-none d-flex flex-row ms-auto me-3">
+            <li class="d-inline-block nav-item dropdown me-2">
+              <a
+                class="p-0 btn btn-light btn-icon rounded-circle nav-link"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                href="#"
+              >
+                <svg width="15" height="15">
+                  <use xlink:href="./images/sprite.svg#bell"></use>
+                </svg>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-xl dropdown-menu-right">
+                <li>
+                  <a class="dropdown-item" href="#">Action</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="d-inline-block nav-item dropdown">
+              <a
+                class="p-0 btn btn-light btn-icon rounded-circle nav-link indicator"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                href="#"
+              >
+                <svg width="15" height="15" style="fill-opacity: 0.45">
+                  <use xlink:href="./images/sprite.svg#message"></use>
+                </svg>
+              </a>
+              <textarea
+                class="dropdown-menu dropdown-menu-xl dropdown-menu-right"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </li>
+          </ul>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Browse
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">lorem.</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">lorem.</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">lorem.</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Landings
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Accounts
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  role="button"
+                >
+                  <i class="fa-solid fa-ellipsis"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex ms-2 me-auto" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+            <ul class="navbar-nav d-none d-lg-flex flex-row ms-auto">
+              <li class="d-inline-block nav-item dropdown me-2">
+                <a
+                  class="p-0 btn btn-light btn-icon rounded-circle nav-link"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  href="#"
+                >
+                  <svg width="15" height="15">
+                    <use xlink:href="./images/sprite.svg#bell"></use>
+                  </svg>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-xl dropdown-menu-right">
+                  <li>
+                    <a class="dropdown-item dropstart" href="#">Action</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="d-inline-block nav-item dropdown">
+                <a
+                  class="p-0 btn btn-light btn-icon rounded-circle nav-link indicator"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  href="#"
+                >
+                  <svg width="15" height="15" style="fill-opacity: 0.45">
+                    <use xlink:href="./images/sprite.svg#message"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section class="hero bg-primary pt-4 pt-xs-5 p-lg-0">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-5 col-lg-6">
+              <h1 class="section-title text-white fw-bold mb-3">
+                Welcome to Geeks UI Learning Application
+              </h1>
+              <p class="descriprion lead text-white-50 mb-4">
+                Hand-picked Instructor and expertly crafted courses, designed
+                for the modern students and entrepreneur.
+              </p>
+              <button class="btn btn-success d-block d-sm-inline-block">
+                Browse courses
+              </button>
+              <button class="mt-2 mt-sm-0 btn btn-light">
+                Are You Instructor?
+              </button>
+            </div>
+            <div class="col-xl-7 col-lg-6 text-center">
+              <img
+                class="img-fluid"
+                src="./images/hero-img.png"
+                alt="hero image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="bg-white py-4 shadow-sm">
+        <div class="container">
+          <ul class="row mb-0">
+            <li class="col-xl-4 col-lg-4 col-md-12 d-flex">
+              <span
+                class="me-3 icon btn-warning d-inline-block rounded-circle text-center"
+                ><i class="fa-solid fa-camera"></i
+              ></span>
+              <div class="wrapper">
+                <h4 class="mb-0">30,000 online courses</h4>
+                <p class="mb-0 text-secondary">
+                  Enjoy a variety of fresh topics
+                </p>
+              </div>
+            </li>
+            <li class="mt-3 mt-lg-0 col-xl-4 col-lg-4 col-md-12 d-flex">
+              <span
+                class="me-3 icon btn-warning d-inline-block rounded-circle text-center"
+                ><i class="fa-solid fa-people-group"></i
+              ></span>
+
+              <div class="wrapper">
+                <h4 class="mb-0">Expert instruction</h4>
+                <p class="mb-0 text-secondary">
+                  Find the right instructor for you
+                </p>
+              </div>
+            </li>
+            <li class="mt-3 mt-lg-0 col-xl-4 col-lg-4 col-md-12 d-flex">
+              <span
+                class="me-3 icon btn-warning d-inline-block rounded-circle text-center"
+                ><i class="fa-solid fa-clock"></i
+              ></span>
+              <div class="wrapper">
+                <h4 class="mb-0">Lifetime access</h4>
+                <p class="mb-0 text-secondary">Learn on your schedule</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section class="recommended">
+        <ul class="container">
+          <li class="item">
+            <h2 class="fs-4">Recommended to you</h2>
+            <ul class="recommended-list mt-3 row g-3">
+              <li class="item col-auto col-sm-6 col-lg">
+                <a href="#">
+                  <div class="card">
+                    <img
+                      src="./images/course-python.jpeg"
+                      class="card-img-top"
+                      alt="Python course image"
+                    />
+                    <div class="card-body p-4">
+                      <h4 class="card-title mb-2 fs-6">
+                        <a class="card-link" href="#"
+                          >The Python Course: build web application</a
+                        >
+                      </h4>
+                      <div class="card-text-group d-flex mb-3">
+                        <p
+                          class="card-text opacity-50 mb-0 me-2 d-inline-block align-middle"
+                        >
+                          <i class="fa-solid d-inline-block fa-clock me-1"></i>
+                          2h 30m
+                        </p>
+                        <p
+                          class="card-text opacity-50 d-inline-block align-middle"
+                        >
+                          <svg width="14" height="14" class="me-1">
+                            <use
+                              xlink:href="./images/sprite.svg#rating-2"
+                            ></use>
+                          </svg>
+                          Intermediate
+                        </p>
+                      </div>
+                      <div class="rating-group d-flex lh-1">
+                        <ul class="stars-list d-flex me-3">
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span class="rating me-1">4.5</span>
+                        <span class="voters text-muted">(13,245)</span>
+                      </div>
+                    </div>
+                    <div class="card-footer bg-white opacity-50 p-3">
+                      <span
+                        width="24"
+                        height="24"
+                        class="avatar d-inline-block border rounded-circle opacity-100"
+                        ><i class="fa-solid fa-user"></i
+                      ></span>
+                      <span>Claire Robertson</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="item col-auto col-sm-6 col-lg">
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/course-graphql.jpeg"
+                      class="card-img-top"
+                      alt="GraphQL course image"
+                    />
+                    <div class="card-body p-4">
+                      <h4 class="card-title mb-2">
+                        <a class="card-link" href="#"
+                          >GraphQL: introduction to graphQL for beginners</a
+                        >
+                      </h4>
+                      <div class="card-text-group d-flex mb-3">
+                        <p
+                          class="card-text opacity-50 mb-0 me-2 d-inline-block align-middle"
+                        >
+                          <i class="fa-solid d-inline-block fa-clock me-1"></i>
+                          2h 46m
+                        </p>
+                        <p
+                          class="card-text opacity-50 d-inline-block align-middle"
+                        >
+                          <svg width="14" height="14" class="me-1">
+                            <use
+                              xlink:href="./images/sprite.svg#rating-3"
+                            ></use>
+                          </svg>
+                          Advance
+                        </p>
+                      </div>
+                      <div class="rating-group d-flex lh-1">
+                        <ul class="stars-list d-flex me-3">
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span class="rating me-1">4.5</span>
+                        <span class="voters text-muted">(9,300)</span>
+                      </div>
+                    </div>
+                    <div class="card-footer bg-white opacity-50 p-3">
+                      <span
+                        width="24"
+                        height="24"
+                        class="avatar d-inline-block border rounded-circle opacity-100"
+                        ><i class="fa-solid fa-user"></i
+                      ></span>
+                      <span>Ted Hawkins</span>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="item col-auto col-sm-6 col-lg">
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/course-angular.jpeg"
+                      class="card-img-top"
+                      alt="Angular course image"
+                    />
+                    <div class="card-body p-4">
+                      <h4 class="card-title mb-2">
+                        <a class="card-link" href="#"
+                          >Angular - the complete guide for beginner</a
+                        >
+                      </h4>
+                      <div class="card-text-group d-flex mb-3">
+                        <p
+                          class="card-text opacity-50 mb-0 me-2 d-inline-block align-middle"
+                        >
+                          <i class="fa-solid d-inline-block fa-clock me-1"></i>
+                          1h 30m
+                        </p>
+                        <p
+                          class="card-text opacity-50 d-inline-block align-middle"
+                        >
+                          <svg width="14" height="14" class="me-1">
+                            <use
+                              xlink:href="./images/sprite.svg#rating-3"
+                            ></use>
+                          </svg>
+                          Advance
+                        </p>
+                      </div>
+                      <div class="rating-group d-flex lh-1">
+                        <ul class="stars-list d-flex me-3">
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span class="rating me-1">4.5</span>
+                        <span class="voters text-muted">(8,890)</span>
+                      </div>
+                    </div>
+                    <div class="card-footer bg-white opacity-50 p-3">
+                      <span
+                        width="24"
+                        height="24"
+                        class="avatar d-inline-block border rounded-circle opacity-100"
+                        ><i class="fa-solid fa-user"></i
+                      ></span>
+                      <span>Juanita Bell</span>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="item col-auto col-sm-6 col-lg">
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/course-react.jpeg"
+                      class="card-img-top"
+                      alt="React course image"
+                    />
+                    <div class="card-body p-4">
+                      <h4 class="card-title mb-2">
+                        <a class="card-link" href="#"
+                          >How to easily create a website with React</a
+                        >
+                      </h4>
+                      <div class="card-text-group d-flex mb-3">
+                        <p
+                          class="card-text opacity-50 mb-0 me-2 d-inline-block align-middle"
+                        >
+                          <i class="fa-solid d-inline-block fa-clock me-1"></i>
+                          3h 56m
+                        </p>
+                        <p
+                          class="card-text opacity-50 d-inline-block align-middle"
+                        >
+                          <svg width="14" height="14" class="me-1">
+                            <use
+                              xlink:href="./images/sprite.svg#rating-1"
+                            ></use>
+                          </svg>
+                          Beginner
+                        </p>
+                      </div>
+                      <div class="rating-group d-flex lh-1">
+                        <ul class="stars-list d-flex me-3">
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span class="rating me-1">4.5</span>
+                        <span class="voters text-muted">(7,700)</span>
+                      </div>
+                    </div>
+                    <div class="card-footer bg-white opacity-50 p-3">
+                      <span
+                        width="24"
+                        height="24"
+                        class="avatar d-inline-block border rounded-circle opacity-100"
+                        ><i class="fa-solid fa-user"></i
+                      ></span>
+                      <span>Morris Mccoy</span>
+                    </div>
+                  </div></a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <h2 class="fs-4">Most Popular</h2>
+            <ul class="recommended-list mt-3 row g-3">
+              <li class="item col-auto col-sm-6 col-lg">
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/course-wordpress.jpeg"
+                      class="card-img-top"
+                      alt="WordPress course image"
+                    />
+                    <div class="card-body p-4">
+                      <h4 class="card-title mb-2 fs-6">
+                        <a class="card-link" href="#"
+                          >Wordpress: complete WordPress theme & plugin
+                        </a>
+                      </h4>
+                      <div class="card-text-group d-flex mb-3">
+                        <p
+                          class="card-text opacity-50 mb-0 me-2 d-inline-block align-middle"
+                        >
+                          <i class="fa-solid d-inline-block fa-clock me-1"></i>
+                          2h 30m
+                        </p>
+                        <p
+                          class="card-text opacity-50 d-inline-block align-middle"
+                        >
+                          <svg width="14" height="14" class="me-1">
+                            <use
+                              xlink:href="./images/sprite.svg#rating-2"
+                            ></use>
+                          </svg>
+                          Intermediate
+                        </p>
+                      </div>
+                      <div class="rating-group d-flex lh-1">
+                        <ul class="stars-list d-flex me-3">
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span class="rating me-1">4.5</span>
+                        <span class="voters text-muted">(16,500)</span>
+                      </div>
+                    </div>
+                    <div class="card-footer bg-white opacity-50 p-3">
+                      <span
+                        width="24"
+                        height="24"
+                        class="avatar d-inline-block border rounded-circle opacity-100"
+                        ><i class="fa-solid fa-user"></i
+                      ></span>
+                      <span>Claire Robertson</span>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="item col-auto col-sm-6 col-lg">
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/course-javascript.jpeg"
+                      class="card-img-top"
+                      alt="JavaScript course image"
+                    />
+                    <div class="card-body p-4">
+                      <h4 class="card-title mb-2">
+                        <a class="card-link" href="#"
+                          >Getting Started with JavaScript</a
+                        >
+                      </h4>
+                      <div class="card-text-group d-flex mb-3">
+                        <p
+                          class="card-text opacity-50 mb-0 me-2 d-inline-block align-middle"
+                        >
+                          <i class="fa-solid d-inline-block fa-clock me-1"></i>
+                          2h 46m
+                        </p>
+                        <p
+                          class="card-text opacity-50 d-inline-block align-middle"
+                        >
+                          <svg width="14" height="14" class="me-1">
+                            <use
+                              xlink:href="./images/sprite.svg#rating-3"
+                            ></use>
+                          </svg>
+                          Advance
+                        </p>
+                      </div>
+                      <div class="rating-group d-flex lh-1">
+                        <ul class="stars-list d-flex me-3">
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span class="rating me-1">4.5</span>
+                        <span class="voters text-muted">(5,245)</span>
+                      </div>
+                    </div>
+                    <div class="card-footer bg-white opacity-50 p-3">
+                      <span
+                        width="24"
+                        height="24"
+                        class="avatar d-inline-block border rounded-circle opacity-100"
+                        ><i class="fa-solid fa-user"></i
+                      ></span>
+                      <span>Ted Hawkins</span>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="item col-auto col-sm-6 col-lg">
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/course-css.jpeg"
+                      class="card-img-top"
+                      alt="CSS course image"
+                    />
+                    <div class="card-body p-4">
+                      <h4 class="card-title mb-2">
+                        <a class="card-link" href="#"
+                          >CSS: ultimate CSS course from beginner to advanced</a
+                        >
+                      </h4>
+                      <div class="card-text-group d-flex mb-3">
+                        <p
+                          class="card-text opacity-50 mb-0 me-2 d-inline-block align-middle"
+                        >
+                          <i class="fa-solid d-inline-block fa-clock me-1"></i>
+                          1h 30m
+                        </p>
+                        <p
+                          class="card-text opacity-50 d-inline-block align-middle"
+                        >
+                          <svg width="14" height="14" class="me-1">
+                            <use
+                              xlink:href="./images/sprite.svg#rating-1"
+                            ></use>
+                          </svg>
+                          Beginner
+                        </p>
+                      </div>
+                      <div class="rating-group d-flex lh-1">
+                        <ul class="stars-list d-flex me-3">
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span class="rating me-1">4.5</span>
+                        <span class="voters text-muted">(17,000)</span>
+                      </div>
+                    </div>
+                    <div class="card-footer bg-white opacity-50 p-3">
+                      <span
+                        width="24"
+                        height="24"
+                        class="avatar d-inline-block border rounded-circle opacity-100"
+                        ><i class="fa-solid fa-user"></i
+                      ></span>
+                      <span>Juanita Bell</span>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="item col-auto col-sm-6 col-lg">
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/course-gatsby.jpeg"
+                      class="card-img-top"
+                      alt="Gatsby course image"
+                    />
+                    <div class="card-body p-4">
+                      <h4 class="card-title mb-2">
+                        <a class="card-link" href="#"
+                          >Gatsby JS: build blog with GraphQL and React</a
+                        >
+                      </h4>
+                      <div class="card-text-group d-flex mb-3">
+                        <p
+                          class="card-text opacity-50 mb-0 me-2 d-inline-block align-middle"
+                        >
+                          <i class="fa-solid d-inline-block fa-clock me-1"></i>
+                          3h 56m
+                        </p>
+                        <p
+                          class="card-text opacity-50 d-inline-block align-middle"
+                        >
+                          <svg width="14" height="14" class="me-1">
+                            <use
+                              xlink:href="./images/sprite.svg#rating-1"
+                            ></use>
+                          </svg>
+                          Beginner
+                        </p>
+                      </div>
+                      <div class="rating-group d-flex lh-1">
+                        <ul class="stars-list d-flex me-3">
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span class="rating me-1">4.5</span>
+                        <span class="voters text-muted">(9,370)</span>
+                      </div>
+                    </div>
+                    <div class="card-footer bg-white opacity-50 p-3">
+                      <span
+                        width="24"
+                        height="24"
+                        class="avatar d-inline-block border rounded-circle opacity-100"
+                        ><i class="fa-solid fa-user"></i
+                      ></span>
+                      <span>Morris Mccoy</span>
+                    </div>
+                  </div></a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <h2 class="fs-4">Trending</h2>
+            <ul class="recommended-list mt-3 row g-3">
+              <li class="item col-auto col-sm-6 col-lg">
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/course-python.jpeg"
+                      class="card-img-top"
+                      alt="Python course image"
+                    />
+                    <div class="card-body p-4">
+                      <h4 class="card-title mb-2 fs-6">
+                        <a class="card-link" href="#"
+                          >The Python Course: build web application</a
+                        >
+                      </h4>
+                      <div class="card-text-group d-flex mb-3">
+                        <p
+                          class="card-text opacity-50 mb-0 me-2 d-inline-block align-middle"
+                        >
+                          <i class="fa-solid d-inline-block fa-clock me-1"></i>
+                          2h 30m
+                        </p>
+                        <p
+                          class="card-text opacity-50 d-inline-block align-middle"
+                        >
+                          <svg width="14" height="14" class="me-1">
+                            <use
+                              xlink:href="./images/sprite.svg#rating-2"
+                            ></use>
+                          </svg>
+                          Intermediate
+                        </p>
+                      </div>
+                      <div class="rating-group d-flex lh-1">
+                        <ul class="stars-list d-flex me-3">
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span class="rating me-1">4.5</span>
+                        <span class="voters text-muted">(13,245)</span>
+                      </div>
+                    </div>
+                    <div class="card-footer bg-white opacity-50 p-3">
+                      <span
+                        width="24"
+                        height="24"
+                        class="avatar d-inline-block border rounded-circle opacity-100"
+                        ><i class="fa-solid fa-user"></i
+                      ></span>
+                      <span>Claire Robertson</span>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="item col-auto col-sm-6 col-lg">
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/course-graphql.jpeg"
+                      class="card-img-top"
+                      alt="Python course image"
+                    />
+                    <div class="card-body p-4">
+                      <h4 class="card-title mb-2">
+                        <a class="card-link" href="#"
+                          >GraphQL: introduction to graphQL for beginners</a
+                        >
+                      </h4>
+                      <div class="card-text-group d-flex mb-3">
+                        <p
+                          class="card-text opacity-50 mb-0 me-2 d-inline-block align-middle"
+                        >
+                          <i class="fa-solid d-inline-block fa-clock me-1"></i>
+                          2h 46m
+                        </p>
+                        <p
+                          class="card-text opacity-50 d-inline-block align-middle"
+                        >
+                          <svg width="14" height="14" class="me-1">
+                            <use
+                              xlink:href="./images/sprite.svg#rating-3"
+                            ></use>
+                          </svg>
+                          Advance
+                        </p>
+                      </div>
+                      <div class="rating-group d-flex lh-1">
+                        <ul class="stars-list d-flex me-3">
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span class="rating me-1">4.5</span>
+                        <span class="voters text-muted">(9,300)</span>
+                      </div>
+                    </div>
+                    <div class="card-footer bg-white opacity-50 p-3">
+                      <span
+                        width="24"
+                        height="24"
+                        class="avatar d-inline-block border rounded-circle opacity-100"
+                        ><i class="fa-solid fa-user"></i
+                      ></span>
+                      <span>Ted Hawkins</span>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="item col-auto col-sm-6 col-lg">
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/course-angular.jpeg"
+                      class="card-img-top"
+                      alt="Python course image"
+                    />
+                    <div class="card-body p-4">
+                      <h4 class="card-title mb-2">
+                        <a class="card-link" href="#"
+                          >Angular - the complete guide for beginner</a
+                        >
+                      </h4>
+                      <div class="card-text-group d-flex mb-3">
+                        <p
+                          class="card-text opacity-50 mb-0 me-2 d-inline-block align-middle"
+                        >
+                          <i class="fa-solid d-inline-block fa-clock me-1"></i>
+                          1h 30m
+                        </p>
+                        <p
+                          class="card-text opacity-50 d-inline-block align-middle"
+                        >
+                          <svg width="14" height="14" class="me-1">
+                            <use
+                              xlink:href="./images/sprite.svg#rating-1"
+                            ></use>
+                          </svg>
+                          Advance
+                        </p>
+                      </div>
+                      <div class="rating-group d-flex lh-1">
+                        <ul class="stars-list d-flex me-3">
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span class="rating me-1">4.5</span>
+                        <span class="voters text-muted">(8,890)</span>
+                      </div>
+                    </div>
+                    <div class="card-footer bg-white opacity-50 p-3">
+                      <span
+                        width="24"
+                        height="24"
+                        class="avatar d-inline-block border rounded-circle opacity-100"
+                        ><i class="fa-solid fa-user"></i
+                      ></span>
+                      <span>Juanita Bell</span>
+                    </div>
+                  </div></a
+                >
+              </li>
+              <li class="item col-auto col-sm-6 col-lg">
+                <a href="#"
+                  ><div class="card">
+                    <img
+                      src="./images/course-react.jpeg"
+                      class="card-img-top"
+                      alt="Python course image"
+                    />
+                    <div class="card-body p-4">
+                      <h4 class="card-title mb-2">
+                        <a class="card-link" href="#"
+                          >How to easily create a website with React</a
+                        >
+                      </h4>
+                      <div class="card-text-group d-flex mb-3">
+                        <p
+                          class="card-text opacity-50 mb-0 me-2 d-inline-block align-middle"
+                        >
+                          <i class="fa-solid d-inline-block fa-clock me-1"></i>
+                          3h 56m
+                        </p>
+                        <p
+                          class="card-text opacity-50 d-inline-block align-middle"
+                        >
+                          <svg width="14" height="14" class="me-1">
+                            <use
+                              xlink:href="./images/sprite.svg#rating-1"
+                            ></use>
+                          </svg>
+                          Beginner
+                        </p>
+                      </div>
+                      <div class="rating-group d-flex lh-1">
+                        <ul class="stars-list d-flex me-3">
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item me-1">
+                            <i class="fa-solid fa-star"></i>
+                          </li>
+                          <li class="item"><i class="fa-solid fa-star"></i></li>
+                        </ul>
+                        <span class="rating me-1">4.5</span>
+                        <span class="voters text-muted">(7,700)</span>
+                      </div>
+                    </div>
+                    <div class="card-footer bg-white opacity-50 p-3">
+                      <span
+                        width="24"
+                        height="24"
+                        class="avatar d-inline-block border rounded-circle opacity-100"
+                        ><i class="fa-solid fa-user"></i
+                      ></span>
+                      <span>Morris Mccoy</span>
+                    </div>
+                  </div></a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer id="main-footer">
+      <div class="container py-3">
+        <div class="row">
+          <p class="d-inline-block text-center text-md-start col-md-6">
+            © 2021 Geeks. All Rights Reserved.
+          </p>
+          <ul
+            class="ms-auto ms-sm-0 mt-4 mt-md-0 footer-list col-md-6 row gx-3"
+          >
+            <li class="item col-6 col-sm-3 p-0">
+              <a class="link px-2" href="#">Privacy</a>
+            </li>
+            <li class="item col-6 col-sm-3 p-0">
+              <a class="link px-2" href="#">Terms</a>
+            </li>
+            <li class="item col-6 col-sm-3 p-0">
+              <a class="link px-2" href="#">Feedback</a>
+            </li>
+            <li class="item col-6 col-sm-3 p-0">
+              <a class="link px-2" href="#">Support</a>
+            </li>
+          </ul>
+          <!-- <ul class="footer-list d-flex flex-row">
+          <li class="item">
+            <a class="link" href="#">Privacy</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">Terms</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">Feedback</a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">Support</a>
+          </li>
+        </ul> -->
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

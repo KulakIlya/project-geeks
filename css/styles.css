@@ -1,0 +1,204 @@
+:root {
+  --main-font-family: "Inter";
+
+  --main-black: #18113c;
+  --main-purple: #754ffe;
+  --main-teal: #20c997;
+  --main-orange: #ffeeda;
+  --main-gray: #5c5776;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+body {
+  font-family: var(--main-font-family);
+
+  background-color: #f5f4f8;
+
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.bg-primary {
+  background-color: var(--main-purple) !important;
+}
+
+.btn-success {
+  background-color: var(--main-teal);
+}
+
+.btn-warning {
+  background-color: var(--main-orange);
+}
+
+/* Header navigation */
+
+.fa-ellipsis {
+  font-size: 1.3rem;
+}
+
+.nav-link:hover {
+  color: var(--main-purple);
+}
+
+/* Search bar */
+
+form .btn {
+  color: var(--main-purple);
+  border-color: var(--main-purple) !important;
+}
+
+form .btn:hover {
+  background-color: var(--main-purple);
+}
+
+/* Icons */
+
+.navbar-nav .dropdown-menu {
+  position: absolute;
+}
+
+.btn-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.dropdown-menu-right {
+  right: 0;
+  left: auto !important;
+}
+
+/* Main content */
+
+/* Hero */
+.hero .section-title {
+  font-size: 2.5rem;
+}
+
+.hero .description {
+  letter-spacing: -0.03rem;
+}
+
+.hero .btn {
+  padding: 0.75rem 1.25rem;
+}
+
+/* After hero */
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+/* Recommended section */
+
+.recommended {
+  padding-bottom: 88px;
+}
+
+.recommended .card-link {
+  color: var(--main-black);
+}
+
+.recommended .card-link:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+/* .recommended-list .item:not(:last-child) {
+  margin-right: 20px;
+} */
+
+.recommended .container > .item {
+  margin-top: 88px;
+}
+
+.recommended-list .card-text {
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.recommended-list .card {
+  border: 0;
+  box-shadow: 0 1px 3px rgb(3 0 71 / 9%);
+}
+
+.recommended-list .card:hover {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
+  transition: box-shadow 0.25s ease;
+}
+
+.stars-list .item {
+  width: 14px;
+  height: 17px;
+}
+
+.rating-group .rating {
+  vertical-align: bottom;
+  font-size: 0.875rem;
+}
+
+.rating-group .voters {
+  font-size: 0.75rem;
+}
+
+.card-footer .avatar {
+  width: 24px;
+  height: 24px;
+
+  text-align: center;
+}
+
+.card-footer .fa-user {
+  width: 14px;
+  height: 14px;
+}
+
+/* Main footer */
+
+#main-footer {
+  color: var(--main-gray);
+  font-size: 0.875rem;
+}
+
+#main-footer .container {
+  border-top: 1px solid #eae7f5 !important;
+}
+
+.footer-list .link {
+  line-height: 1.5rem;
+  color: var(--main-gray);
+  padding: 0.2rem 1rem;
+}
+
+.footer-list .link:hover,
+.footer-list .link:focus {
+  color: var(--main-purple);
+  transition: color 0.4s;
+}
